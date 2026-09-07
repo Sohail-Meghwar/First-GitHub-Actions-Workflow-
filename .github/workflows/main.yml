@@ -1,0 +1,14 @@
+name: Sohail
+
+on:
+   push: 
+      branches: [ main ]
+
+jobs:
+   demo:
+    runs-on: windows-latest
+    steps:
+       - name: Greeting
+         run: echo "Hello from Sohail"
+      
+      
