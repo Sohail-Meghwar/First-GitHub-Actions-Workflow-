@@ -2,7 +2,7 @@ name: Sohail
 
 on:
    push: 
-      branches: [ main ]
+      branches: [ default ]
 
 jobs:
    demo:
