@@ -6,7 +6,7 @@ on:
 
 jobs:
    demo:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
        - name: Greeting
          run: echo "Hello from Sohail"
